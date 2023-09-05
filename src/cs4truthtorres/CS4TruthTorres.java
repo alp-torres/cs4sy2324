@@ -18,7 +18,15 @@ public class CS4TruthTorres {
         // TODO code application logic here
         String greeting = "Hello world!";
         System.out.println(greeting + " Hello Pisay !");
-                
+        
+        Person mark = new Person("Mark");
+        Person nathan = new Person("Nathan", 28);
+        mark.setFriend(nathan);
+        mark.earnMoney(100);
+        System.out.println(Person.getRecentWorker().getName());
+        nathan.earnMoney(100);
+        System.out.println(Person.getRecentWorker().getName());
+        // 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
     }
     
 }
